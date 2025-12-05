@@ -1,0 +1,24 @@
+git PR(pull request)
+# Go to your repository
+cd your-repository-name
+
+# Create and switch to a new branch
+git checkout -b add-new-folder
+
+# Create a new folder
+mkdir new-folder
+
+# Create a file inside the new folder
+echo "Hello from the new folder!" > new-folder/readme.txt
+
+# Check what changed (optional)
+git status
+
+# Add all changes
+git add .
+
+# Commit the changes
+git commit -m "Add new folder with readme file"
+
+# Push the branch to GitHub
+git push origin add-new-folder
