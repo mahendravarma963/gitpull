@@ -1,4 +1,6 @@
 git PR(pull request)
+//changes are only comments
+
 # Go to your repository
 cd your-repository-name
 
